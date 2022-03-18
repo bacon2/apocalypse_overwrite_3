@@ -1,0 +1,15 @@
+{
+  "name": "apocalypse_overwrite:skyscraper",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "apocalypse_overwrite:skyscraper_bottom_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

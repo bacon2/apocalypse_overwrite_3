@@ -1,0 +1,1 @@
+execute facing entity @p eyes if block ^ ^ ^1 minecraft:air if block ^ ^ ^2 minecraft:air if block ^ ^ ^3 minecraft:air run tp @s ^ ^ ^3

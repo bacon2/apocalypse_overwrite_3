@@ -1,0 +1,10 @@
+{
+  "config": {
+    "start_pool": "apocalypse_overwrite:modern_country_structures",
+    "size": 2
+  },
+  "biomes": "#apocalypse_overwrite:has_country",
+  "spawn_overrides": {},
+  "adapt_noise": true,
+  "type": "village"
+}

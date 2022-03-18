@@ -1,0 +1,31 @@
+{
+  "name": "apocalypse_overwrite:modern_planes",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "elements": [
+          {
+            "location": "apocalypse_overwrite:passenger_plane",
+            "processors": {
+              "processors": []
+            },
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+          },
+          {
+            "location": "apocalypse_overwrite:passenger_plane",
+            "processors": {
+              "processors": []
+            },
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+          }
+        ],
+        "projection": "rigid",
+        "element_type": "minecraft:list_pool_element"
+      }
+    }
+  ]
+}

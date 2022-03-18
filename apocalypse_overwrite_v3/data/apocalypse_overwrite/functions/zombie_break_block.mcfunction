@@ -1,0 +1,9 @@
+execute anchored eyes unless block ^ ^ ^1 #apocalypse_overwrite:zombie_immune run playsound minecraft:entity.zombie.attack_wooden_door master @a ~ ~ ~ 0.4 1
+execute anchored eyes unless block ^ ^ ^1 #apocalypse_overwrite:zombie_immune unless block ^ ^ ^1 #apocalypse_overwrite:zombie_resistant if predicate apocalypse_overwrite:1_in_30 run fill ^ ^ ^1 ^ ^ ^1 air destroy
+execute anchored eyes unless block ^ ^ ^1 #apocalypse_overwrite:zombie_immune if block ^ ^ ^1 #apocalypse_overwrite:zombie_resistant if predicate apocalypse_overwrite:1_in_70 run fill ^ ^ ^1 ^ ^ ^1 air destroy
+execute anchored feet unless block ^ ^0.4 ^1 #apocalypse_overwrite:zombie_immune run playsound minecraft:entity.zombie.attack_wooden_door master @a ~ ~ ~ 0.4 1
+execute anchored feet unless block ^ ^0.4 ^1 #apocalypse_overwrite:zombie_immune unless block ^ ^ ^1 #apocalypse_overwrite:zombie_resistant if predicate apocalypse_overwrite:1_in_30 run fill ^ ^ ^1 ^ ^ ^1 air destroy
+execute anchored feet unless block ^ ^0.4 ^1 #apocalypse_overwrite:zombie_immune if block ^ ^ ^1 #apocalypse_overwrite:zombie_resistant if predicate apocalypse_overwrite:1_in_70 run fill ^ ^ ^1 ^ ^ ^1 air destroy
+execute unless block ~ ~1 ~ #apocalypse_overwrite:zombie_immune run playsound minecraft:entity.zombie.attack_wooden_door master @a ~ ~ ~ 0.4 1
+execute unless block ~ ~1 ~ #apocalypse_overwrite:zombie_immune unless block ~ ~1 ~ #apocalypse_overwrite:zombie_resistant if predicate apocalypse_overwrite:1_in_8 run fill ~ ~1 ~ ~ ~1 ~ air destroy
+execute unless block ~ ~1 ~ #apocalypse_overwrite:zombie_immune if block ~ ~1 ~ #apocalypse_overwrite:zombie_resistant if predicate apocalypse_overwrite:1_in_30 run fill ~ ~1 ~ ~ ~1 ~ air destroy

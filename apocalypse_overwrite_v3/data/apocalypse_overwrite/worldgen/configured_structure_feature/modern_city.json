@@ -1,0 +1,10 @@
+{
+  "config": {
+    "start_pool": "apocalypse_overwrite:modern_city_roads",
+    "size": 5
+  },
+  "biomes": "#apocalypse_overwrite:has_city",
+  "spawn_overrides": {},
+  "adapt_noise": true,
+  "type": "village"
+}

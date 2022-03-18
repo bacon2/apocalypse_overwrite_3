@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "apocalypse_overwrite:modern_city",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 5,
+    "separation": 2,
+    "salt": 9584638
+  }
+}
